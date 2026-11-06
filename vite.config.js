@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // Ensures assets load cleanly on both root and subdirectory GitHub Pages deployments
+  base: process.env.NODE_ENV === 'production' ? '/Portfolio/' : '/',
   server: {
     port: 3000,
     open: false

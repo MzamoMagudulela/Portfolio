@@ -8,8 +8,8 @@ Designed with the **DIGITAL DIMENSION** visual concept: a cinematic, immersive 3
 
 ## 🌐 Live Production URL
 
-- **GitHub Pages:** [https://MzamoMagudulela.github.io/](https://mzamomagudulela.github.io/)
-- **Repository:** `https://github.com/MzamoMagudulela/MzamoMagudulela.github.io` (or your chosen repository name)
+- **GitHub Pages:** [https://mzamomagudulela.github.io/Portfolio/](https://mzamomagudulela.github.io/Portfolio/)
+- **Repository:** [https://github.com/MzamoMagudulela/Portfolio](https://github.com/MzamoMagudulela/Portfolio)
 
 ---
 
@@ -73,8 +73,8 @@ Website_Porfolio/
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/MzamoMagudulela/MzamoMagudulela.github.io.git
-cd MzamoMagudulela.github.io
+git clone https://github.com/MzamoMagudulela/Portfolio.git
+cd Portfolio
 npm install
 ```
 

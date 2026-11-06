@@ -4,7 +4,10 @@ import { ShieldCheck, Sparkles, Terminal } from 'lucide-react'
 
 export default function PortraitFrame3D() {
   const containerRef = useRef(null)
-  const [imgSrc, setImgSrc] = useState('./assets/mzamo-portrait.jpg')
+  const basePath = import.meta.env.BASE_URL || '/'
+  const defaultImg = `${basePath}assets/mzamo-portrait.jpg`
+  const placeholderImg = `${basePath}assets/mzamo-portrait-placeholder.svg`
+  const [imgSrc, setImgSrc] = useState(defaultImg)
   const [isHovered, setIsHovered] = useState(false)
 
   // Mouse position values for 3D tilt
@@ -45,8 +48,8 @@ export default function PortraitFrame3D() {
 
   // Gracefully fall back to vector placeholder if custom photo is not yet provided
   const handleImageError = () => {
-    if (imgSrc !== './assets/mzamo-portrait-placeholder.svg') {
-      setImgSrc('./assets/mzamo-portrait-placeholder.svg')
+    if (imgSrc !== placeholderImg) {
+      setImgSrc(placeholderImg)
     }
   }
 

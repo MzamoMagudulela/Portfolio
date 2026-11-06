@@ -12,6 +12,6 @@ if %errorlevel% neq 0 (
 ) else (
   echo [✓] Code pushed successfully!
   echo     GitHub Actions is now deploying your portfolio.
-  echo     Live URL: https://MzamoMagudulela.github.io/
+  echo     Live URL: https://mzamomagudulela.github.io/Portfolio/
 )
 pause
