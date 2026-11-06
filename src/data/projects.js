@@ -22,7 +22,7 @@ export const projects = [
       "Assignment submission and evaluation workflow",
       "Student progress analytics and grade reporting"
     ],
-    githubUrl: "https://github.com/MzamoMagudulela",
+    githubUrl: "https://github.com/MzamoMagudulela/learnitics-educational-platform",
     liveUrl: null, // Set to live URL when deployed
     status: "Active Development",
     year: "2024"
@@ -44,7 +44,7 @@ export const projects = [
       "Latency benchmarking & response duration tracking",
       "Persistent test run history and audit trails"
     ],
-    githubUrl: "https://github.com/MzamoMagudulela",
+    githubUrl: "https://github.com/MzamoMagudulela/Automated-API-Testing-Platform",
     liveUrl: null,
     status: "Completed",
     year: "2024"
@@ -66,7 +66,7 @@ export const projects = [
       "Relational schema with ACID compliance",
       "Comprehensive Swagger / OpenAPI specifications"
     ],
-    githubUrl: "https://github.com/MzamoMagudulela",
+    githubUrl: "https://github.com/MzamoMagudulela/IT_Support_Ticket_API",
     liveUrl: null,
     status: "Completed",
     year: "2023"
@@ -88,7 +88,7 @@ export const projects = [
       "IP reputation flagging and threat threshold alarms",
       "Structured incident export in JSON/CSV formats"
     ],
-    githubUrl: "https://github.com/MzamoMagudulela",
+    githubUrl: "https://github.com/MzamoMagudulela/Security-Log--Analyser",
     liveUrl: null,
     status: "Completed",
     year: "2024"
@@ -132,7 +132,7 @@ export const projects = [
       "Automated ticket routing to municipal district channels",
       "Mobile-optimized progressive web architecture"
     ],
-    githubUrl: "https://github.com/MzamoMagudulela",
+    githubUrl: "https://github.com/MzamoMagudulela/communifix-sa",
     liveUrl: null,
     status: "Concept & Prototype",
     year: "2024"
